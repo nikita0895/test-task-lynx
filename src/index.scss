@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+body {
+	margin: 0;
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.navigation {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	padding: 40px;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+	text-transform: capitalize;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.ant-menu {
+	margin-right: 40px;
+	flex: 1;
+	display: flex;
+	border-bottom: none;
+}
